@@ -3,3 +3,6 @@
   color: white;
   text-align: center;
 }
+table, thead, tbody, th, tr {
+  text-align: center;
+}

@@ -1,5 +1,8 @@
 $(document).ready(function(){
   
+  setTimeout( function(){ window.location.reload(1);
+  }, 60000);
+
   var trainData = new Firebase("https://traintrack.firebaseio.com/");
 
   $(document).on('click', '#submit', function(){
